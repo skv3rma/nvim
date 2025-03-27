@@ -1,0 +1,5 @@
+-- return function()
+--   require("notify").setup {
+--     background_colour = "#eeeeee",
+--   }
+-- end
