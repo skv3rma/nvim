@@ -1,5 +1,6 @@
 require('nvim-treesitter.configs').setup({
-	ensure_installed = "all",
+	ensure_installed = {"java","python","xml","html"},
+	auto_install = true,
 
 	highlight = {
 		enable = true,
