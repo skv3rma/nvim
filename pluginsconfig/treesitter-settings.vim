@@ -1,6 +1,7 @@
 lua <<EOF
 require'nvim-treesitter.configs'.setup {
-  ensure_installed = "java","python","xml" -- one of "all", "maintained" (parsers with maintainers), or a list of languages
+  " -- "all" or "maintained"
+  ensure_installed = {"java","python","xml"}, 
   highlight = {
     enable = true,              -- false will disable the whole extension
     disable = {},  -- list of language that will be disabled
